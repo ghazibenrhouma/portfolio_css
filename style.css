@@ -1,0 +1,216 @@
+fieldset{
+    border-style:solid;
+    border-color:darkgoldenrod;
+    border-width: 0.1cm;
+    width: 10cm;
+    height: 80cm;
+    
+    
+}
+fieldset{
+    background-image: url(2.jpg);
+    background-repeat:no-repeat;
+  height: 100%;
+    background-size: cover;
+}
+h1{
+    font-family: Impact, Charcoal, sans-serif;
+    margin-left: 13cm;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.flex-container > div {
+   color: ivory;
+    background-color: #927575;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    justify-content: center;
+}
+.flex-container a:hover{
+    color: ivory;
+    background-color: rgb(214, 9, 153);
+}
+.flex-container a:active{
+    color: ivory;
+    background-color: rgb(214, 9, 153);
+}
+.row a:hover{ 
+    background-color: maroon;
+    color: mediumaquamarine;
+
+}
+.row {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.primary:hover{
+color: mediumblue;
+}
+.secondary:hover{
+color: mediumblue;
+}
+.success:hover{
+color: mediumblue;
+}
+.danger:hover{
+color: mediumblue;
+}
+.warning:hover{
+color: mediumblue;
+}
+.info:hover{
+color: mediumblue;
+}
+.light:hover{
+color: mediumblue;
+}
+.dark:hover{
+color: mediumblue;
+}
+.link:hover{
+color: mediumblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .item1:hover{
+      color: olive;
+      background-color: palevioletred;
+  }
+  .item2:hover{
+    color: olive;
+    background-color: palevioletred;
+}
+.item3:hover{
+    color: olive;
+    background-color: palevioletred;
+} .item4:hover{
+      color: olive;
+      background-color: palevioletred;
+  }
+  .item5:hover{
+    color: olive;
+    background-color: palevioletred;
+}
+.item6:hover{
+    color: olive;
+    background-color: palevioletred;
+}
+.item7:hover{
+    color: olive;
+    background-color: palevioletred;
+}
+.item8:hover{
+    color: olive;
+    background-color: palevioletred;
+}
+.item1:hover{
+    color: olive;
+    background-color: palevioletred;
+}
+
+
+form{
+    width: 1280px;
+    height:700px;
+}
+nav{
+    font-size: 20px;
+    font-family: monospace;
+}
+label{
+    color: white;
+}
+legend{
+    color:white;
+    font-size: xx-large;
+    font-family:'Times New Roman', Times, serif;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    /* animation-delay: inherit;
+    animation-direction: alternate-reverse; */
+  
+   
+
+
+}
+
+/* @keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+} */
+@keyframes example {
+    0%   {left: 0px; right: 50px; color: red;}
+    /* 25%  {top: 0px; left: 100px; color: blue;} */
+    50%  {left: 50px; right: 0px; color: yellow;}
+    /* 75%  {top: 100px; left: 0px; color: green;} */
+     100% {top: 0px; left: 0px; color: red;} 
+  }
+  .topnav {
+    background-color: rgb(163, 145, 145);
+    overflow: clip;
+  }
+  .topnav a {
+    text-decoration: rebeccapurple;
+}
+
+@media (min-width:1200px) {
+.topnav {
+    background-color: #333;
+    overflow: hidden;  
+    }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black; 
+}
+    .topnav a.active {
+        background-color: #4CAF50;
+        color: white;
+  }
+  .topnav .icon {
+    display: none;
+  }
+
+}
+  
