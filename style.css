@@ -209,7 +209,7 @@ legend{
         color: white;
   }
   .topnav .icon {
-    display: none;
+    display: block;
   }
 
 }
